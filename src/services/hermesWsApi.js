@@ -297,7 +297,7 @@ function _sendRpc(method, params = {}) {
 export async function createSession(title = '', seedMessages = []) {
     if (!_sessionId) {
         const params = {
-            title: title || '大卡鹰眼对话',
+            title: title || '智能对话',
             source: 'web',
         };
         // 如果有历史消息，传入作为种子

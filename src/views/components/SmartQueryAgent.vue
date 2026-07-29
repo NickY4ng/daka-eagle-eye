@@ -22,7 +22,7 @@
                     <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-2xl flex items-center justify-center mb-4 shadow-lg shrink-0">
                         <Brain class="w-8 h-8 text-white"/>
                     </div>
-                    <p class="text-slate-500 text-sm mb-2">大卡鹰眼 · 物流决策分析智能体</p>
+                    <p class="text-slate-500 text-sm mb-2">数据报告下载演示</p>
                     <p class="text-xs text-slate-400 mb-6">数据报告下载演示</p>
                     <div class="grid grid-cols-3 gap-3 max-w-2xl w-full px-4">
                         <button

@@ -1,6 +1,6 @@
 <template>
     <div class="flex h-screen flex-row bg-gradient-to-br from-slate-50 via-blue-50/30 to-cyan-50/20">
-        <Header :activeModule="activeModule" @module-change="changeModule" @create-session="toCreateSession(null)" @help="$refs.helpRef?.show">
+        <Header :activeModule="activeModule" @module-change="changeModule" @create-session="toCreateSession(null)">
             <ChatSideBar v-if="activeModule==='query'" @confirm-delete="toDelete" @select="toSelectSession"/>
         </Header>
         <main class="min-h-0 flex-1 overflow-hidden p-4">
@@ -17,21 +17,19 @@
                 <Automation/>
             </div>
         </main>
-        <OnboardingTutorial ref="helpRef"/>
-    </div>
+</div>
 </template>
 
 <script>
     import Header from '@/views/components/Header.vue';
     import SmartQueryAgent from '@/views/components/SmartQueryAgent.vue';
     import DataAssets from '@/views/components/DataAssets.vue';
-    import OnboardingTutorial from '@/components/home/OnboardingTutorial.vue';
     import ChatSideBar from '@/components/chat/ChatSidebar.vue';
     import Automation from '@/views/components/Automation.vue';
     import Skills from '@/views/components/Skills.vue';
 
     export default {
-        components: {Skills, Automation, ChatSideBar, Header, SmartQueryAgent, DataAssets, OnboardingTutorial},
+        components: {Skills, Automation, ChatSideBar, Header, SmartQueryAgent, DataAssets},
         data() {
             return {
                 activeModule: 'query',

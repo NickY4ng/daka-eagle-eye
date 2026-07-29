@@ -27,7 +27,7 @@ router.beforeEach((to) => {
     return true;
 });
 
-const DEFAULT_TITLE = '大卡鹰眼-物流决策分析智能体';
+const DEFAULT_TITLE = '数据决策平台';
 
 router.afterEach((to) => {
     document.title = DEFAULT_TITLE;

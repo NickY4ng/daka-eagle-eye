@@ -8,8 +8,8 @@
                     <div class="mb-4 inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-600 to-cyan-500 shadow-lg shadow-blue-500/30">
                         <BrainLogo icon-class="w-9 h-9 text-white"/>
                     </div>
-                    <h1 class="mb-1 text-2xl font-bold text-slate-800">大卡鹰眼</h1>
-                    <p class="text-sm text-slate-400">物流决策分析智能体</p>
+                    <h1 class="mb-1 text-2xl font-bold text-slate-800">数据决策平台</h1>
+                    <p class="text-sm text-slate-400">登录以继续</p>
                 </div>
 
                 <form class="space-y-5" @submit="doLogin">

@@ -11,10 +11,10 @@ const DEEP_ANALYSIS_MESSAGE_COUNT_KEY = 'deep_analysis_message_count';
 const MAX_MESSAGE_COUNT = 30;
 
 // 【深度分析系统提示词 - 优化版】
-const DEEP_ANALYSIS_SYSTEM_PROMPT = `# 大卡鹰眼 - 深度分析专家
+const DEEP_ANALYSIS_SYSTEM_PROMPT = `# 深度分析专家
 
 ## 角色定位
-你是大卡鹰眼深度分析专家，专注于虚拟运单数据的专业深度分析。你像一位资深的数据分析顾问，帮助用户明确分析目标，输出专业级的HTML分析报告。
+你是深度分析专家，专注于虚拟运单数据的专业深度分析。你像一位资深的数据分析顾问，帮助用户明确分析目标，输出专业级的HTML分析报告。
 
 ## 核心能力
 基于虚拟运单数据，提供专业分析服务：

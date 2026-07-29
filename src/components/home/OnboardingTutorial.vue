@@ -18,9 +18,9 @@
                     <div class="w-20 h-20 mx-auto bg-gradient-to-br from-blue-500 to-cyan-500 rounded-2xl flex items-center justify-center shadow-lg">
                         <Brain class="w-10 h-10 text-white"/>
                     </div>
-                    <h3 class="text-lg font-semibold text-slate-800">欢迎使用大卡鹰眼智能数据决策平台</h3>
+                    <h3 class="text-lg font-semibold text-slate-800">欢迎使用数据决策平台</h3>
                     <p class="text-sm text-slate-500 leading-relaxed">
-                        大卡鹰眼是一个基于AI的智能数据分析平台，帮助您快速洞察物流运输数据，做出更明智的决策。 让我们花1分钟了解核心功能。 </p>
+                        这是一个基于AI的智能数据分析平台，帮助您快速洞察物流运输数据，做出更明智的决策。 让我们花1分钟了解核心功能。 </p>
                 </div>
 
                 <!-- Step 2: Smart Query -->
@@ -84,7 +84,7 @@
                     </div>
                     <h3 class="text-lg font-semibold text-slate-800">准备就绪！</h3>
                     <p class="text-sm text-slate-500 leading-relaxed">
-                        您已了解大卡鹰眼的核心功能。现在可以开始使用智能查询功能， 输入您的第一个数据分析问题吧！ </p>
+                        您已了解平台的核心功能。现在可以开始使用智能查询功能， 输入您的第一个数据分析问题吧！ </p>
                     <div class="flex items-center justify-center gap-2 text-xs text-slate-400 mt-2">
                         <HelpCircle class="w-3.5 h-3.5"/>
                         <span>随时点击右下角帮助按钮重新查看引导</span>
@@ -124,7 +124,7 @@
     const TUTORIAL_KEY = 'daka_onboarding_completed';
 
     const tutorialSteps = [
-        {id: 1, title: '欢迎使用大卡鹰眼', icon: Sparkles},
+        {id: 1, title: '欢迎使用', icon: Sparkles},
         {id: 2, title: '智能报表', icon: Brain},
         {id: 3, title: '数据资产管理', icon: Database},
         {id: 4, title: '开始使用', icon: Zap},

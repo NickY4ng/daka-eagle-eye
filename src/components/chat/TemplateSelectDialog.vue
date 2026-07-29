@@ -4,7 +4,7 @@
             <div class="flex h-[580px]">
                 <div class="w-56 border-r border-slate-100 bg-slate-50/50">
                     <div class="px-6 py-5 border-b border-slate-100">
-                        <div class="text-base font-semibold text-slate-800">大卡鹰眼 · 数据工坊</div>
+                        <div class="text-base font-semibold text-slate-800">数据工坊</div>
                     </div>
                     <div class="py-3">
                         <button v-for="(group, index) in groupTemplates" :key="index" type="button" class="w-full px-6 py-2.5 text-left text-sm transition-all duration-200 border-l-4" :class="activeGroupIndex === index ? 'bg-blue-50 border-blue-600 text-blue-600 font-medium -ml-[1px]' : 'border-transparent text-slate-600 hover:bg-slate-100 hover:border-slate-300'" @click="activeGroupIndex = index"> {{ group.name }}</button>

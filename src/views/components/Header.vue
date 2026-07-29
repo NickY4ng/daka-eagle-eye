@@ -7,8 +7,7 @@
                     <Brain class="w-6 h-6 text-white"/>
                 </div>
                 <div>
-                    <h1 class="text-lg font-bold text-slate-800">大卡鹰眼</h1>
-                    <p class="text-[10px] text-slate-500">智能数据决策平台</p>
+                    <h1 class="text-lg font-bold text-slate-800">数据决策平台</h1>
                 </div>
             </div>
         </div>
@@ -31,14 +30,6 @@
         <div class="flex-1 min-h-0 overflow-hidden flex flex-col">
             <slot/>
         </div>
-
-        <!-- Help button -->
-        <div class="p-3 border-t border-slate-100">
-            <button class="flex w-full items-center gap-2 rounded-lg px-2 py-2 text-sm text-slate-600 transition hover:bg-slate-100" @click="$emit('help')">
-                <span class="w-4 h-4 text-slate-400 text-center">?</span>
-                <span>使用帮助</span>
-            </button>
-        </div>
     </aside>
 </template>
 
@@ -57,7 +48,7 @@
         props: {
             activeModule: { type: String, required: true },
         },
-        emits: ['module-change', 'create-session', 'help'],
+        emits: ['module-change', 'create-session'],
         data() {
             return {
                 modules: [
