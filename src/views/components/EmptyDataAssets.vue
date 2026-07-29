@@ -33,42 +33,18 @@
             <h3 class="text-lg font-semibold text-slate-700 mb-2">暂无数据报告</h3>
             <p class="text-sm text-slate-500 text-center max-w-sm leading-relaxed mb-8">
                 您当前没有可用的数据报告。<br />
-                如需采购数据报告，请联系项目人员开通权限。
+                如需采购数据报告，请联系客户经理。
             </p>
 
-            <!-- Feature cards -->
-            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-lg w-full">
-                <div class="flex flex-col items-center text-center p-4 rounded-xl border border-slate-100 bg-slate-50/50">
-                    <div class="w-9 h-9 rounded-lg bg-blue-50 flex items-center justify-center mb-2.5">
-                        <FileText class="w-[18px] h-[18px] text-blue-500" />
-                    </div>
-                    <span class="text-xs font-medium text-slate-600">数据报告</span>
-                    <span class="text-[11px] text-slate-400 mt-1">CSV / Excel 格式</span>
-                </div>
-                <div class="flex flex-col items-center text-center p-4 rounded-xl border border-slate-100 bg-slate-50/50">
-                    <div class="w-9 h-9 rounded-lg bg-green-50 flex items-center justify-center mb-2.5">
-                        <Download class="w-[18px] h-[18px] text-green-500" />
-                    </div>
-                    <span class="text-xs font-medium text-slate-600">一键下载</span>
-                    <span class="text-[11px] text-slate-400 mt-1">按天筛选打包</span>
-                </div>
-                <div class="flex flex-col items-center text-center p-4 rounded-xl border border-slate-100 bg-slate-50/50">
-                    <div class="w-9 h-9 rounded-lg bg-purple-50 flex items-center justify-center mb-2.5">
-                        <Shield class="w-[18px] h-[18px] text-purple-500" />
-                    </div>
-                    <span class="text-xs font-medium text-slate-600">权限管控</span>
-                    <span class="text-[11px] text-slate-400 mt-1">手机号鉴权</span>
-                </div>
-            </div>
         </div>
     </div>
 </template>
 
 <script>
-    import { Database, FolderOpen, FileText, Download, Shield } from 'lucide-vue-next';
+    import { Database, FolderOpen } from 'lucide-vue-next';
 
     export default {
         name: 'EmptyDataAssets',
-        components: { Database, FolderOpen, FileText, Download, Shield },
+        components: { Database, FolderOpen },
     };
 </script>
