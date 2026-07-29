@@ -55,7 +55,7 @@
                     {id: 'query', name: '智能报表', icon: Brain},
                     {id: 'skills', name: '技能', icon: Zap},
                     {id: 'data-assets', name: '数据资产', icon: Database},
-                    {id: 'empty-data', name: '数据资产（空）', icon: Database},
+                    {id: 'empty-data', name: '数据资产（空样式）', icon: Database},
                     {id: 'automation', name: '自动化', icon: Bot},
                 ],
             };
