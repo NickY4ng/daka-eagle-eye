@@ -34,7 +34,7 @@
 </template>
 
 <script>
-    import {Brain, Zap, Bot, Database} from 'lucide-vue-next';
+    import {Brain, Zap, Bot, Database, FolderOpen} from 'lucide-vue-next';
     import {Button} from '@/components/ui/button';
     import {cn} from '@/lib/utils';
     import {useUserStore} from '@/store/user.js';
@@ -44,7 +44,7 @@
         setup() {
             return { userStore: useUserStore() };
         },
-        components: {Button, Brain, Zap, Bot, Database},
+        components: {Button, Brain, Zap, Bot, Database, FolderOpen},
         props: {
             activeModule: { type: String, required: true },
         },
@@ -55,6 +55,7 @@
                     {id: 'query', name: '智能报表', icon: Brain},
                     {id: 'skills', name: '技能', icon: Zap},
                     {id: 'data-assets', name: '数据资产', icon: Database},
+                    {id: 'empty-data', name: '数据资产（空）', icon: FolderOpen},
                     {id: 'automation', name: '自动化', icon: Bot},
                 ],
             };

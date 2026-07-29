@@ -16,6 +16,9 @@
             <div v-if="activeModule === 'automation'" class="h-full w-full">
                 <Automation/>
             </div>
+            <div v-if="activeModule === 'empty-data'" class="h-full w-full overflow-hidden">
+                <EmptyDataAssets/>
+            </div>
         </main>
     </div>
 </template>
@@ -24,12 +27,13 @@
     import Header from '@/views/components/Header.vue';
     import SmartQueryAgent from '@/views/components/SmartQueryAgent.vue';
     import DataAssets from '@/views/components/DataAssets.vue';
+    import EmptyDataAssets from '@/views/components/EmptyDataAssets.vue';
     import ChatSideBar from '@/components/chat/ChatSidebar.vue';
     import Automation from '@/views/components/Automation.vue';
     import Skills from '@/views/components/Skills.vue';
 
     export default {
-        components: {Skills, Automation, ChatSideBar, Header, SmartQueryAgent, DataAssets},
+        components: {Skills, Automation, ChatSideBar, Header, SmartQueryAgent, DataAssets, EmptyDataAssets},
         data() {
             return {
                 activeModule: 'query',
