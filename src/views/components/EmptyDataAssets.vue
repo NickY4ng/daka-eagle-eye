@@ -20,8 +20,8 @@
                 <!-- Outer glow ring -->
                 <div class="absolute inset-0 w-32 h-32 mx-auto rounded-full bg-blue-100/60 blur-2xl"></div>
                 <!-- Icon container -->
-                <div class="relative w-28 h-28 mx-auto rounded-3xl bg-gradient-to-br from-slate-100 to-slate-50 border border-slate-200 flex items-center justify-center shadow-sm">
-                    <FolderOpen class="w-12 h-12 text-slate-300" />
+                <div class="relative w-28 h-28 mx-auto rounded-3xl bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center shadow-lg">
+                    <Database class="w-12 h-12 text-white" />
                 </div>
                 <!-- Decorative dots -->
                 <div class="absolute -top-2 -right-1 w-5 h-5 rounded-full bg-blue-100 border-2 border-white shadow-sm"></div>
@@ -41,10 +41,10 @@
 </template>
 
 <script>
-    import { Database, FolderOpen } from 'lucide-vue-next';
+    import { Database } from 'lucide-vue-next';
 
     export default {
         name: 'EmptyDataAssets',
-        components: { Database, FolderOpen },
+        components: { Database },
     };
 </script>
